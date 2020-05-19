@@ -2,7 +2,7 @@
 
 12306.cn is an offical and only website for searching and buying train tickets in mainland China. This project mainly uses JavaScript and builds up a user-interactive ticket searching service through API from AliCloud. Several key terms that I learned recently such as API authentications, regex pattern comparatsion, filtering, and asynchronous functions are used in this project. 
 
-![Screenshot][https://s1.ax1x.com/2020/05/19/YIt6cq.png] 
+![Screenshot](https://s1.ax1x.com/2020/05/19/YIt6cq.png) 
 
 ## Getting Started
 
