@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-If you want to just look at how bad the code I wrote is, then please proceed to the Installing section and open in your own computer
+If you want to just look at how awesome the code I wrote is, then please proceed to the Installing section and open in your own computer
 
 ### Prerequisites
 

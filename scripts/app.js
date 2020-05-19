@@ -7,6 +7,8 @@ var patt = /([GCDSZTK]\d{1,3})|\d{4}/is;
 const updateTrain = async (trainID) => {
     await getTrain(trainID).then(data => {
         if (data.length != 0) {
+            const overnight = (data[data.length - 1].火车列车是否过夜 === '0') ? '' : ('+' + data[data.length - 1].火车列车是否过夜);
+            const type = data[0].火车列车类型名称;
             details.innerHTML = `
                 <div class="row my-2 mx-auto location">
                     <h2 class="col-4">${data[0].出发站点名称}</h2>
@@ -15,8 +17,8 @@ const updateTrain = async (trainID) => {
                 </div>
                 <div class="row my-1 mx-auto time">
                     <h2 class="col">${data[0].火车列车出发时间}</h2>
-                    <h4 class="col font-weight-bold">${data[0].火车列车车次}</h2>
-                    <h2 class="col">${data[data.length - 1].火车列车出发时间}</h2>
+                    <h4 class="col font-weight-bold">${type} ${data[0].火车列车车次}</h2>
+                    <h2 class="col">${data[data.length - 1].火车列车出发时间} ${overnight}</h2>
                 </div>
             `;
             cardlist.innerHTML= ` `;
