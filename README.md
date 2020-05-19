@@ -22,7 +22,7 @@ No matter Windows, Mac, or Linux works
 ## Built With
 
 * [Webstorm](https://www.jetbrains.com/webstorm/) - JavaScript IDE
-* [Bootstrap](https://getbootstrap.com/ - Style management
+* [Bootstrap](https://getbootstrap.com/) - Style management
 * [Date-Fns](https://date-fns.org/) - Useful plugin for generating formatted date
 
 ## Authors
